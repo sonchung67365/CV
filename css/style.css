@@ -126,6 +126,10 @@ header .navbar ul li a:hover {
     color: #fff;
 }
 
+.home h1 span {
+    color: var(--yellow);
+}
+
 .home p {
     font-size: 2rem;
     color: #eee;
@@ -179,6 +183,10 @@ section {
         font-size: 55%;
     }
 
+    .home {
+        padding: 1rem 4rem;
+    }
+
 }
 
 @media (max-width:992px) {
@@ -196,7 +204,7 @@ section {
     }
 
     body {
-        padding-left: 0;
+        padding: 0;
     }
 
 
